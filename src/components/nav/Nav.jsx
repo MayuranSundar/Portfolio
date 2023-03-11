@@ -36,7 +36,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <a href="/#" className='header active'><AiOutlineHome/></a>
+      <a href="#" className='header active'><AiOutlineHome/></a>
       <a href="#about" className='about'><AiOutlineUser/></a>
       <a href="#experience" className='experience'><BiBook/> </a>
       <a href="#background" className='background'><RiContactsLine/></a>

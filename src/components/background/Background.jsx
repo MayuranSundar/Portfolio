@@ -25,7 +25,7 @@ const Background = () => {
           </div>
 
           <ul className="background__list">
-            <BackgroundInfo info="5 years’ experience as a Knowhow technician in Currys"/>
+            <BackgroundInfo info="5 years of experience as a Knowhow technician at Currys"/>
             <BackgroundInfo info="Admin and IT work at Day-To-Day Account"/>
             <BackgroundInfo info="Bookkeeping Assistant at Mayfair Associates London"/>
             <BackgroundInfo info="Private maths tutor"/>

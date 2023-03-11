@@ -12,7 +12,7 @@ const data = [
     image: IMG1,
     title: 'Portfolio: React App',
     github: "https://github.com/MayuranSundar/Portfolio",
-    demo: "/#"
+    demo: "https://mayuransundar.github.io/Portfolio"
   },
   {
     id: 2,
