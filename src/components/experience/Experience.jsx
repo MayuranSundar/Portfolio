@@ -27,7 +27,7 @@ const Experience = () => {
             <ExperienceDetails skill="Python" level="Intermediate"/>
             <ExperienceDetails skill="Java" level="Competent"/>
             <ExperienceDetails skill="SQL" level="Competent"/>
-            <ExperienceDetails skill="Unreal Engine" level="Beginner"/>
+            <ExperienceDetails skill="Unreal Engine 5" level="Beginner"/>
           </div>
         </div>
       </div>

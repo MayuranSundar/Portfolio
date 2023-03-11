@@ -1,6 +1,5 @@
 import React from 'react'
 import './background.css'
-import {BsCheck2All} from 'react-icons/bs'
 import BackgroundInfo from './BackgroundInfo'
 
 const Background = () => {
@@ -15,10 +14,8 @@ const Background = () => {
           </div>
 
           <ul className="background__list">
-             <BackgroundInfo info="Te ipsum dolor sit amet consectetur elit."/>
-             <BackgroundInfo info="Te ipsum dolor sit amet consectetur elit."/>
-             <BackgroundInfo info="Te ipsum dolor sit amet consectetur elit."/>
-             <BackgroundInfo info="Te ipsum dolor sit amet consectetur elit."/>
+             <BackgroundInfo info="First in BSc Computer Science from University of Surrey"/>
+             <BackgroundInfo info="A Levels - Maths, Business Studies, Information Technology"/>
           </ul>
         </article>
 
@@ -28,10 +25,10 @@ const Background = () => {
           </div>
 
           <ul className="background__list">
-            <BackgroundInfo info="Te ipsum dolor sit amet consectetur elit."/>
-            <BackgroundInfo info="Te ipsum dolor sit amet consectetur elit."/>
-            <BackgroundInfo info="Te ipsum dolor sit amet consectetur elit."/>
-            <BackgroundInfo info="Te ipsum dolor sit amet consectetur elit."/>
+            <BackgroundInfo info="5 years’ experience as a Knowhow technician in Currys"/>
+            <BackgroundInfo info="Admin and IT work at Day-To-Day Account"/>
+            <BackgroundInfo info="Bookkeeping Assistant at Mayfair Associates London"/>
+            <BackgroundInfo info="Private maths tutor"/>
           </ul>
         </article>
 
@@ -41,10 +38,9 @@ const Background = () => {
           </div>
 
           <ul className="background__list">
-            <BackgroundInfo info="Te ipsum dolor sit amet consectetur elit."/>
-            <BackgroundInfo info="Te ipsum dolor sit amet consectetur elit."/>
-            <BackgroundInfo info="Te ipsum dolor sit amet consectetur elit."/>
-            <BackgroundInfo info="Te ipsum dolor sit amet consectetur elit."/>  
+            <BackgroundInfo info="Game development"/>
+            <BackgroundInfo info="Gym"/>
+            <BackgroundInfo info="Gaming"/>
           </ul>
         </article>
 
