@@ -5,7 +5,7 @@ import Footer from './components/footer/Footer'
 import Contact from './components/contact/Contact'
 import Experience from './components/experience/Experience'
 import Nav from './components/nav/Nav'
-import Services from './components/services/Services'
+import Background from './components/background/Background'
 import Portfolio from './components/portfolio/Portfolio'
 
 
@@ -16,7 +16,7 @@ const App = () => {
       <Nav />
       <About />
       <Experience />
-      <Services />
+      <Background />
       <Portfolio />
       <Contact />
       <Footer />

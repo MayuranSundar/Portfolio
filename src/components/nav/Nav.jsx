@@ -39,7 +39,7 @@ const Nav = () => {
       <a href="/#" className='header active'><AiOutlineHome/></a>
       <a href="#about" className='about'><AiOutlineUser/></a>
       <a href="#experience" className='experience'><BiBook/> </a>
-      <a href="#services" className='services'><RiContactsLine/></a>
+      <a href="#background" className='background'><RiContactsLine/></a>
       <a href="#portfolio" className='portfolio'><AiOutlineAppstore/></a>
       <a href="#contact" className='contact'> <AiOutlineMessage/></a>
     </nav>
