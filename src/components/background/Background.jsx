@@ -1,6 +1,7 @@
 import React from 'react'
 import './background.css'
 import BackgroundInfo from './BackgroundInfo'
+import data from './BackgroundData'
 
 const Background = () => {
   return (
@@ -14,8 +15,11 @@ const Background = () => {
           </div>
 
           <ul className="background__list">
-             <BackgroundInfo info="First in BSc Computer Science from University of Surrey"/>
-             <BackgroundInfo info="A Levels - Maths, Business Studies, Information Technology"/>
+            {data.education.map(({info})=>{
+                  return(
+                    <BackgroundInfo info={info} />
+                  )
+              })}
           </ul>
         </article>
 
@@ -25,10 +29,11 @@ const Background = () => {
           </div>
 
           <ul className="background__list">
-            <BackgroundInfo info="5 years of experience as a Knowhow technician at Currys"/>
-            <BackgroundInfo info="Admin and IT work at Day-To-Day Account"/>
-            <BackgroundInfo info="Bookkeeping Assistant at Mayfair Associates London"/>
-            <BackgroundInfo info="Private maths tutor"/>
+            {data.workExp.map(({info})=>{
+                  return(
+                    <BackgroundInfo info={info} />
+                  )
+            })}
           </ul>
         </article>
 
@@ -38,9 +43,11 @@ const Background = () => {
           </div>
 
           <ul className="background__list">
-            <BackgroundInfo info="Game development"/>
-            <BackgroundInfo info="Gym"/>
-            <BackgroundInfo info="Gaming"/>
+            {data.hobbies.map(({info})=>{
+                  return(
+                    <BackgroundInfo info={info} />
+                  )
+            })}
           </ul>
         </article>
 

@@ -9,10 +9,17 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    // API set up
     emailjs.sendForm('service_mgdva1i', 'template_xkjmkow', form.current, '-oF0ECIH8LEl2Y8Kk')
-
+    // Resetting form
     e.target.reset()
+
+    // Displaying success message 
+    document.getElementById('success').style.visibility = 'visible'
+    setTimeout(() => {
+      let get = document.getElementById('success')
+      get.style.visibility = 'hidden'
+    }, 5000);
   };
 
   return (
@@ -25,8 +32,8 @@ const Contact = () => {
           <article className="contact__option">
             <TfiEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>dummyemail@email.com</h5>
-            <a href="mailto:dummyemail@email.com" target='_blank' rel='noopener noreferrer'>Send an Email</a>
+            <h5>mayuransundar@hotmail.com</h5>
+            <a href="mailto:mayuransundar@hotmail.com" target='_blank' rel='noopener noreferrer'>Send an Email</a>
           </article>
         </div>
 
@@ -35,6 +42,7 @@ const Contact = () => {
           <input type="email" name='email' placeholder='Your Email' required/>
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
+          <h3 id='success'>Your message was successfully sent!</h3>
         </form>
       </div>
     </section>

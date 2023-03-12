@@ -23,13 +23,25 @@
 }
 
 .portfolio__item h3{
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
 }
 
 .portfolio__item-cta{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.portfolio__item-techstack{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: left;
+    gap: 0.8rem;
+    margin-bottom: 5px;
+    margin: 0rem 0 1rem;
+}
+.portfolio__item-techstack:hover{
+    color:var(--color-primary)
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ============== */

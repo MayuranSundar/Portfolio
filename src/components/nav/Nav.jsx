@@ -7,6 +7,7 @@ import {AiOutlineAppstore} from 'react-icons/ai'
 import {AiOutlineMessage} from 'react-icons/ai'
 import {RiContactsLine} from 'react-icons/ri'
 import {useEffect} from "react";
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 const Nav = () => {
 
@@ -36,7 +37,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <a href="#" className='header active'><AiOutlineHome/></a>
+      <a href="#" className='header active'><AiOutlineHome/></a> 
       <a href="#about" className='about'><AiOutlineUser/></a>
       <a href="#experience" className='experience'><BiBook/> </a>
       <a href="#background" className='background'><RiContactsLine/></a>

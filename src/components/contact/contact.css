@@ -53,6 +53,12 @@ input, textarea{
     color: var(--color-white);
 }
 
+#success{
+    color: var(--color-primary);
+    visibility:hidden;
+    transition: var(--transition);
+}
+
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px){
     .container.contact__container{

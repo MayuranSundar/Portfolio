@@ -1,56 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/Portfolio.png'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-
-const data = [
-  {
-    id: 1,
-    image: IMG1,
-    title: 'Portfolio: React App',
-    github: "https://github.com/MayuranSundar/Portfolio",
-    demo: "https://mayuransundar.github.io/Portfolio"
-  },
-  {
-    id: 2,
-    image: IMG2,
-    title: 'The Exit: Unreal Engine 5 Game',
-    github: "https://github.com",
-    demo: "https://github.com"
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'Meme Generator: React App',
-    github: "https://github.com",
-    demo: "https://github.com"
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Calculator: JavaScript App',
-    github: "https://github.com",
-    demo: "https://github.com"
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Mental Health Forum: Ruby on Rails App',
-    github: "https://github.com",
-    demo: "https://github.com"
-  },
-  {
-    id: 6,
-    image: IMG5,
-    title: 'Pro Phones: Ruby on Rails App',
-    github: "https://github.com",
-    demo: "https://github.com"
-  }
-]
-
+import data from './PortfolioData'
 
 const Portfolio = () => {
   return (
@@ -60,7 +10,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo})=>{
+          data.map(({id, image, title, github, demo, demoAvailable, isPortfolio})=>{
             return(
               <article key={id} className="portfolio__item">
               
@@ -69,10 +19,13 @@ const Portfolio = () => {
                 </div>
 
                 <h3>{title}</h3>
-                
                 <div className="portfolio__item-cta">
-                  <a href={github} target='_blank'rel='noopener noreferrer' className='btn'>Github</a>
-                  <a href={demo} target='_blank' rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>  
+                  <a href={github} target='' rel='noopener noreferrer' className='btn'>Github</a>
+                  {demoAvailable && 
+                    <a href={demo} target={isPortfolio? '':'_blank'} rel='noopener noreferrer' className='btn btn-primary'>
+                      Live Demo
+                    </a>
+                  }
                 </div>
               </article>
             )
