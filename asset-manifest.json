@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c77e4950.css",
-    "main.js": "/Portfolio/static/js/main.915a459c.js",
-    "static/media/cv.pdf": "/Portfolio/static/media/cv.1676dcdc83730930d888.pdf",
-    "static/media/portfolio5.png": "/Portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "main.css": "/Portfolio/static/css/main.523abe26.css",
+    "main.js": "/Portfolio/static/js/main.c3f1411d.js",
+    "static/media/The-Exit.png": "/Portfolio/static/media/The-Exit.f94527bbddede6bb26f7.png",
+    "static/media/MayuranSundar-CV.pdf": "/Portfolio/static/media/MayuranSundar-CV.116f8f1602097573976f.pdf",
+    "static/media/Meme-Generator.png": "/Portfolio/static/media/Meme-Generator.6998a1466cc695f12370.png",
     "static/media/Portfolio.png": "/Portfolio/static/media/Portfolio.34c8c2ddf80665b4c72e.png",
-    "static/media/portfolio2.jpg": "/Portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
     "static/media/me-memoji.png": "/Portfolio/static/media/me-memoji.dce3d866ded0c567860f.png",
     "static/media/me-memoji-about.png": "/Portfolio/static/media/me-memoji-about.55ceea5057de1f5a4af5.png",
-    "static/media/portfolio3.jpg": "/Portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
-    "static/media/portfolio4.jpg": "/Portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/Calculator.png": "/Portfolio/static/media/Calculator.3daae0e25b0ad97588e2.png",
     "index.html": "/Portfolio/index.html",
-    "main.c77e4950.css.map": "/Portfolio/static/css/main.c77e4950.css.map",
-    "main.915a459c.js.map": "/Portfolio/static/js/main.915a459c.js.map"
+    "main.523abe26.css.map": "/Portfolio/static/css/main.523abe26.css.map",
+    "main.c3f1411d.js.map": "/Portfolio/static/js/main.c3f1411d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c77e4950.css",
-    "static/js/main.915a459c.js"
+    "static/css/main.523abe26.css",
+    "static/js/main.c3f1411d.js"
   ]
 }
