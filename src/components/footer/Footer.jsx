@@ -3,12 +3,13 @@ import './footer.css'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
 
+/* eslint-disable jsx-a11y/anchor-is-valid */
 const Footer = () => {
   return (
     <footer>
       <p className="footer__logo">Mayu</p>
       <ul className="permalinks">
-        <li><a href="/#">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#background">Background</a></li>
