@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.523abe26.css",
-    "main.js": "/Portfolio/static/js/main.c3f1411d.js",
+    "main.js": "/Portfolio/static/js/main.0276bf9d.js",
     "static/media/The-Exit.png": "/Portfolio/static/media/The-Exit.f94527bbddede6bb26f7.png",
     "static/media/MayuranSundar-CV.pdf": "/Portfolio/static/media/MayuranSundar-CV.116f8f1602097573976f.pdf",
     "static/media/Meme-Generator.png": "/Portfolio/static/media/Meme-Generator.6998a1466cc695f12370.png",
@@ -11,10 +11,10 @@
     "static/media/Calculator.png": "/Portfolio/static/media/Calculator.3daae0e25b0ad97588e2.png",
     "index.html": "/Portfolio/index.html",
     "main.523abe26.css.map": "/Portfolio/static/css/main.523abe26.css.map",
-    "main.c3f1411d.js.map": "/Portfolio/static/js/main.c3f1411d.js.map"
+    "main.0276bf9d.js.map": "/Portfolio/static/js/main.0276bf9d.js.map"
   },
   "entrypoints": [
     "static/css/main.523abe26.css",
-    "static/js/main.c3f1411d.js"
+    "static/js/main.0276bf9d.js"
   ]
 }
